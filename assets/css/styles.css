@@ -1,0 +1,43 @@
+body{
+  background-color: #FFEAD4;
+  margin: 0;
+  overflow-x: hidden;
+}
+.container-header{
+  width: 100vw;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1.2);
+  display: flex;
+}
+
+.img__lett{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-top: 10%;  
+    fill: transparent;
+    animation: lett-preenchimento 0.5s ease-in-out forwards 4s;
+    
+    
+}
+.img__lett path{
+  stroke-width: 2px;
+  stroke: #BE253F;
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: lett-stroke 5s ease-in-out forwards 1s; 
+}
+@keyframes lett-preenchimento{
+  to{
+    fill: #BE253F;
+  }
+}
+@keyframes lett-stroke{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
