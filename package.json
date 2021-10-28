@@ -1,0 +1,24 @@
+{
+  "name": "verao-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^12.0.1"
+  },
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleeeguevara/verao-svg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleeeguevara/verao-svg/issues"
+  },
+  "homepage": "https://github.com/aleeeguevara/verao-svg#readme"
+}
