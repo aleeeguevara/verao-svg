@@ -6,11 +6,9 @@ body{
 .container-header{
   width: 100vw;
  
-  display: flex;
 }
 
 .img__lett{
-    display: flex;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -18,7 +16,6 @@ body{
     margin-top: 10%;  
     fill: transparent;
     animation: lett-preenchimento 0.5s ease-in-out forwards 4s;
-    
     
 }
 .img__lett path{
@@ -59,6 +56,22 @@ p{
   margin: 20px;
 }
 
+.lett-footer{
+  width: 60%;
+  position: absolute;
+  left: 20%;
+  margin-top: 20%;
+  fill: #fff;
+  opacity: 0.5;
+}
+
+.container-footer{
+  position: relative;
+}
+
+.footer-infos{
+  text-align: center;
+}
 
 @keyframes lett-preenchimento{
   to{
